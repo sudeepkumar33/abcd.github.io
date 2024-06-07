@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+        
+    
+    <h1>Course Registration Form</h1>
+    <form action="abcd.html">
+
+    <fieldset>
+        <legend>Personal Details</legend>
+    <table>
+        <tr>
+            <td> <label for="na"> first Name:</label></td>
+            <td><input type="text" id="na" required><br></td>
+        </tr>
+
+        <tr>
+            <td><label for="sa"> Sur Name:</label></td>
+            <td><input type="text" id="sa" required><br></td>
+        </tr>
+
+        <tr>
+            <td> <label for="mn"> Mobile Number</label></td>
+            <td> <input type="tel" id="mn"><br></td>
+        </tr>
+
+        <tr>
+            <td> <label for="pa"> Password</label></td>
+            <td><input type="password" id="pa" required><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="cpa"> Confrom Password</label></td>
+            <td><input type="password" id="cpa" required><br></td>
+        </tr>
+
+        <tr>
+            <td> <label for="da"> DOB</label></td>
+            <td><input type="date" id="da"> <br></td>
+        </tr>
+
+        <tr>
+            <td> <label for="ga"> Gender</label></td>
+            <td> <input type="radio" id="ma">
+                <label for="ma">male</label>
+                <input type="radio" id="fa">
+                <label for="fa">Female</label>
+                <input type="radio" id="oa">
+                <label for="oa">Others</label><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td> <label for="se">Select Country</label></td>
+            <td><select  id="se">
+                <option >India</option>
+                <option >USA</option>
+                <option >China</option>
+            </select><br></td>
+        </tr>
+
+        <tr>
+            <td><label for="up">Upload Picture</label></td>
+            <td> <input type="file" id="up"></td>
+        </tr>
+
+        <tr>
+            <td><input type="reset" value="Reset"></td>
+        </tr>
+    </table>
+</fieldset>
+
+
+      <fieldset>
+        <legend>Course Details</legend>
+        <label for="ca">Select Course :</label><br>
+        <select  id="ca">
+            <option >Java Full Stack</option>
+            <option>Python Full Stack</option>
+            <option >Mern Stack</option>
+        </select><br>
+        <label for="">Delivery Mode:</label>
+        <input type="radio" id="of">
+        <label for="of"> Offline</label>
+        <input type="radio" id="on">
+        <label for="on">Online</label><br>
+
+        <label for="cn">Comments:</label><br>
+        <textarea name="" id="cn" cols="20" rows="5"></textarea>
+
+      </fieldset>
+      <center>
+        <input type="submit">
+      </center>
+   
+    </form>
+</body>
+</html>
